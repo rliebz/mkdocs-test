@@ -95,10 +95,11 @@ or the project's own [`tusk.yml`](tusk.yml) file.
 ## Contributing
 
 Set-up instructions for a development environment and contribution guidelines
-can be found in [CONTRIBUTING.md](CONTRIBUTING.md).
+can be found in [CONTRIBUTING.md][contributing].
 
 [appveyor]: https://ci.appveyor.com/project/RobertLiebowitz/tusk
 [circle]: https://circleci.com/gh/rliebz/tusk/tree/master
 [gitter]: https://gitter.im/tusk-cli/tusk
 [homebrew]: https://brew.sh
 [releases]: https://github.com/rliebz/tusk/releases
+[contributing]: https://github.com/rliebz/tusk/blob/master/CONTRIBUTING.md

@@ -17,7 +17,7 @@ tasks:
 
 The commands can be run with no additional configuration:
 
-```
+```text
 $ tusk hello
 Running: echo "Hello, world!"
 Hello, world!
@@ -76,7 +76,7 @@ For executing shell commands, the interpreter used will be the value of the
 
 The second type of action a `run` clause can perform is setting or unsetting
 environment variables. To do so, simply define a map of environment variable
-names to their desired values: 
+names to their desired values:
 
 ```yaml
 tasks:
@@ -393,7 +393,7 @@ tasks:
 
 The example above will produce the following help documentation:
 
-```
+```text
 mycli - A custom aliased command-line application
 
 Usage:
@@ -445,4 +445,3 @@ parsing the file after interpolation. This means that variable values with
 newlines or other characters that are relevant to the `yaml` spec or the `sh`
 interpreter will need to be considered by the user. This can be as simple as
 using quotes when appropriate.
-

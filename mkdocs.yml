@@ -3,3 +3,6 @@ theme: cinder
 pages:
   - Getting Started: index.md
   - The Spec: spec.md
+markdown_extensions:
+  - codehilite
+extra_css: [pygments.css]

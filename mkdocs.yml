@@ -1,0 +1,5 @@
+site_name: tusk
+theme: cinder
+pages:
+  - Getting Started: index.md
+  - The Spec: spec.md
